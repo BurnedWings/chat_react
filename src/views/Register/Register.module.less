@@ -1,0 +1,83 @@
+.login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    // z-index: 999999999;
+    background-color: white;
+
+    .loginHeader {
+        width: 100%;
+        height: 50px;
+
+        .toRegister {
+            float: right;
+            font-size: 18px;
+            color: #333333;
+            letter-spacing: 0;
+            font-weight: 500;
+            margin-right: 15px;
+            margin-top: 12px;
+        }
+
+    }
+
+    .loginImgContent {
+        text-align: center;
+        height: 180px;
+        overflow: hidden;
+
+        .loginLogo {
+            width: 300px;
+            transform: translateY(-13%);
+        }
+    }
+
+    .loginBody {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        .loginTitle {
+            font-family: PingFangSC-Medium;
+            font-size: 28px;
+            color: #272832;
+            letter-spacing: 0;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .searchInput {
+            // width: 90%;
+            position: relative;
+            height: 70px;
+            margin: 0 auto;
+            input {
+              width: 100%;
+              outline-style: none;
+              height: 40px;
+              border: none;
+              caret-color: blue;
+              background-color: transparent; 
+            }
+            .eye {
+                position: absolute;
+                margin-left: 8px;
+                padding: 4px;
+                cursor: pointer;
+                right: 0;
+                top: 16px;
+                svg {
+                  display: block;
+                  font-size: var(--adm-font-size-7);
+                }
+              }
+            .inputLine {
+              width: 100%;
+              height: 1.5px;
+              background-color: blue;
+            }
+            
+
+          }
+    }
+}
+
